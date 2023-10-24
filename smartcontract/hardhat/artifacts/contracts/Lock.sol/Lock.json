@@ -1,0 +1,80 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Lock",
+  "sourceName": "contracts/Lock.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_unlockTime",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "when",
+          "type": "uint256"
+        }
+      ],
+      "name": "Withdrawal",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address payable",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "unlockTime",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60806040526040516101ab3803806101ab8339810160408190526100229161003c565b600055600180546001600160a01b03191633179055610055565b60006020828403121561004e57600080fd5b5051919050565b610147806100646000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063251c1aa3146100465780633ccfd60b146100625780638da5cb5b1461006a575b600080fd5b61004f60005481565b6040519081526020015b60405180910390f35b61004f610095565b60015461007d906001600160a01b031681565b6040516001600160a01b039091168152602001610059565b604080514781524260208201526000917fbf2ed60bd5b5965d685680c01195c9514e4382e28e3a5a2d2d5244bf59411b93910160405180910390a16001546040516001600160a01b03909116904780156108fc02916000818181858888f19350505050158015610109573d6000803e3d6000fd5b50506000549056fea264697066735822122082d0e238578942d2b51675d5f231b180a65fcae408b6d2696f592a9e210594af64736f6c63430008130033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063251c1aa3146100465780633ccfd60b146100625780638da5cb5b1461006a575b600080fd5b61004f60005481565b6040519081526020015b60405180910390f35b61004f610095565b60015461007d906001600160a01b031681565b6040516001600160a01b039091168152602001610059565b604080514781524260208201526000917fbf2ed60bd5b5965d685680c01195c9514e4382e28e3a5a2d2d5244bf59411b93910160405180910390a16001546040516001600160a01b03909116904780156108fc02916000818181858888f19350505050158015610109573d6000803e3d6000fd5b50506000549056fea264697066735822122082d0e238578942d2b51675d5f231b180a65fcae408b6d2696f592a9e210594af64736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
